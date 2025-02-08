@@ -1,0 +1,204 @@
+/* color of navbar name */  /* used !important to make it override the normal bootstrap color */ 
+.navbar-brand span {
+    font-family: Palatino Linotype, serif !important;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffda0a !important;
+}
+
+    
+/* hover on navbar name. makes it glowwwww*/  
+.navbar-brand span:hover {
+    text-shadow: 0px 0px 15px rgba(255, 236, 125, 0.9), 
+                 0px 0px 25px rgba(255, 215, 0, 0.8), /* multiple layers to make glow more prominent*/  
+                 0px 0px 35px rgba(255, 200, 0, 0.7);
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    font-family: Palatino Linotype, serif !important;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffda0a !important; 
+    text-transform: uppercase; 
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for navlinks */
+.navbar-nav .nav-link:hover {
+    text-shadow: 0px 0px 15px rgba(255, 236, 125, 0.9), 
+                 0px 0px 25px rgba(255, 215, 0, 0.8), /* multiple layers to make glow more prominent*/  
+                 0px 0px 35px rgba(255, 200, 0, 0.7);
+}
+
+/* Color of navbar bg */
+.navbar {
+    background: linear-gradient(to bottom, #021A68, #073fd8) !important;
+    border: #ffda0a;
+}
+
+/*change color of dropdown border */
+.navbar-toggler {
+    border-color: #ffda0a !important; 
+}
+/*change color of dropdown icon */
+/*filter is used since the icon is an image. i used chatgpt to get this color instead of thinking too much about it */
+.navbar-toggler-icon {
+    filter: invert(77%) sepia(51%) saturate(937%) hue-rotate(1deg) brightness(101%) contrast(102%);
+}
+/*made it glow blue ??? when hovered*/
+.navbar-toggler-icon:hover {
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 1), 
+                0px 0px 30px rgba(255, 200, 0, 0.9), 
+                0px 0px 40px rgba(255, 180, 0, 0.8);
+}
+/*BODY section */
+body {
+    background-color: #073fd897;
+}
+
+/* font for content*/
+.content {
+    font-family: "Lora", serif;
+    flex: 1;
+}
+
+/*aligns list to left*/
+.content li {
+    text-align: left;
+}
+/*css for link in body*/
+.content a {
+    color:#021A68
+}
+/*css for hover*/
+.content a:hover {
+    color: rgb(38, 97, 185);
+}
+/* class to align text to left*/
+.align-left {
+    text-align: left;
+}
+/* white container but it is 30% visible*/
+.container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background: hsla(0, 0%, 100%, 0.3); /* 3rd option for transparency */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(1, 65, 255, 0.6), 
+                0px 0px 40px rgba(38, 0, 255, 0.4); /* Soft glow on all sides */
+    text-align: center;
+    padding: 50px 50px;
+}
+
+
+/* CARD SECTION */
+.card {
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.3); 
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Glow stronger & move closer on hover */
+.card:hover {
+    box-shadow: 0px 0px 30px rgba(238, 255, 1, 0.9), 
+                0px 0px 50px rgba(255, 215, 0, 0.7);
+    transform: scale(1.05); /* zoomies */
+}
+
+/* if by itself, it will zoom a little */
+.image-container img {
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/*css for card title*/
+.card-title {
+    font-weight: bold;
+}
+/*css for card title link*/
+.card-title a {
+    text-decoration: none;
+}
+/*css for card title link hover*/
+.card-title a:hover {
+    color: #b4ab03;
+}
+/*css for card text*/
+.card-text {
+    text-align: left;
+}
+
+/*accordion button css*/
+.accordion-button{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*CAROUSEL SECTION*/
+
+/*carousel image*/
+.carousel-item img {
+    width: 100%;
+    height: 400px;  
+    object-fit: contain; /* whole image visible */
+    background-color: hsla(0, 0%, 100%, 0.04); 
+}
+/*carousel toggle icons color*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(85%) sepia(80%) saturate(300%) hue-rotate(10deg) brightness(100%);
+}
+
+/*carousel toggle icons hover color*/
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #ffda0a67;
+    box-shadow: 0px 0px 30px rgba(238, 255, 1, 0.366), 
+                0px 0px 50px rgba(255, 217, 0, 0.512);
+}
+/*css for card caption)*/
+.custom-caption {
+    color: #ffda0a;  /* Text color */
+    background-color: rgba(22, 1, 143, 0.5); /* White background with 50% transparency */
+    padding: 10px; /* Optional, to give some space around the text */
+}
+/*IMAGES section*/
+/* Make images glow and zoom on hover */
+.image-container img:hover {
+    box-shadow: 0px 0px 20px rgba(255, 223, 0, 0.8), 
+                0px 0px 40px rgba(255, 200, 0, 0.6);
+    transform: scale(1.1); /* Zoom in slightly */
+}
+
+/* formatting of img */
+.norm-img{
+    width: 700px;
+    height: 400px;
+    box-shadow: #021A68;
+}
+
+/*FOOTER section */
+.footer_section {
+    background: linear-gradient(to top, #021A68, #073fd8)  !important;
+    text-decoration: none; /* Remove underline */
+    font-family: Palatino Linotype, serif !important;
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Add padding */
+}
+/*change color*/
+.footer_section a {
+    color: #ffda0a !important;
+}
+/*h4 format for footer */
+.footer_section h4 {
+    font-weight: bold;
+    color: #ffda0a !important;
+    text-transform: uppercase; /* makes text uppercase */
+}
+/*change color when hovered*/
+.footer_section a:hover {
+    text-shadow: 0px 0px 15px rgba(255, 236, 125, 0.9), 
+                 0px 0px 25px rgba(255, 215, 0, 0.8), /* multiple layers to make glow more prominent*/  
+                 0px 0px 35px rgba(255, 200, 0, 0.7);
+}

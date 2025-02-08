@@ -1,0 +1,11 @@
+/*Centering navbar dropdown links */
+@media (max-width: 991px) { 
+    #main-nav {
+        text-align: center; /* Centers links in small windows */
+    }
+
+    #main-nav .navbar-nav {
+        display: block; /* full-width alignment */
+    }
+}
+
