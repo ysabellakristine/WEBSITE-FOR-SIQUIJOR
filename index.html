@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="images/favicon.png" type="image/png">
+    
     <!-- Name on tab -->
     <title>Siquijor</title>
     
@@ -28,7 +29,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-xxl">
             <a href="index.html" class="navbar-brand">
-                <span class="fw-bold text-secondary">SIQUIJOR</span>
+                <span class="fw-bold text-secondary">✨SIQUIJOR</span>
             </a>
             <!-- Toggle button for mobile navigation -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,7 +42,7 @@
             <div id="main-nav" class="collapse navbar-collapse justify-content-end align-items-center">
                 <ul class="navbar-nav  ms-auto ">
                     <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="visually-hidden">(current)</span></a>
+                      <a class="nav-link" href="index.html">Home </span></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="about.html">About Us</a>
@@ -52,6 +53,9 @@
                     <li class="nav-item">
                       <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reference.html">References</a>
+                      </li>
                   </ul>
             </div>
         </div>
@@ -59,29 +63,94 @@
 
     <!-- CONTENT SECTION -->
     <div class="container">
-        <div class="content">
-            <h1> HELLO</h1>
+        <div class="content"> <hr>
+            <h1><b> <u> Siquijor Province </u></b></h1>
+            <p class="lead">The Land of Beauty and Magic</p> <br>
+            
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe title="vimeo-player" 
+                src="https://player.vimeo.com/video/541482355?h=6e97f573d1" width="640" height="360" frameborder="0"    allowfullscreen> 
+                </iframe>
             </div>
+            <p>Source: <a href="https://siquijorprovince.com/">siquijorprovince.com</a></p>
+            <p>Siquijor is the third smallest province in the Philippines. 
+                <br> 
+                <p class="align-left">It has beautiful beaches, activities, caves, and sites to see! 
+                    Not only that but people go here not only for the sights but for its infamy in South East Asia as a centre of witchcraft, magic, and folk healing.
+                    Ask anyone in their 30's and above about this province and I guarantee you that they will either say it is a place full of witches or <i>aswang.</i> <br> </p>
+                <p> I would know, since both of my parents on separate occasions said it was an island of witches. </p> 
+                
+                <!--Accordion of Activities -->
+                <div class="accordion" id="galleryAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                ACTIVITIES
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#galleryAccordion">
+                            <div class="accordion-body">
+                                <!-- Content of Accordion which are cards -->
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 mb-4">
+                                        <div class="card h-100">
+                                            <img src="images/im_9.png" class="card-img-top" alt="Tours">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="https://www.bing.com/aclick?ld=e81t2Eb_kjmASo8VScB2GGszVUCUzIcsCxSP0mTeIjkzLbhMVoUwhQsfAiili7aB8mne8Jjb9ASGrNgKvbMByUj4DJdZMVZ8hPPYtVq0ZqqPaW42c314eVBM1b8MHUxDcHCt4lbwtSdoioF_NwZhjYm3NkHE2tYJKp0HXhJ7frsBqyIUvfxwMuf1KsqLIhwYJC1YudBw&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZmZyLWZyJTJmLWwxMTQzMDclMmYtdDYyMjgwMyUyZiUzZmNtcCUzZGJpbmclMjZhZF9pZCUzZDc4MjAyOTYzNzEwMzU3JTI2YWRncm91cF9pZCUzZDEyNTEyNDQ4NTQ2ODMyNDAlMjZiaWRfbWF0Y2hfdHlwZSUzZGJiJTI2Y2FtcGFpZ25faWQlM2Q0MzQxMTE1MzQlMjZkZXZpY2UlM2RjJTI2ZmVlZF9pdGVtX2lkJTNkJTI2a2V5d29yZCUzZHd3dy5nZXR5b3VyZ3VpZGUuY29tJTI2bG9jX2ludGVyZXN0X21zJTNkMTQyNzY2JTI2bG9jX3BoeXNpY2FsX21zJTNkMTUyOTg3JTI2bWF0Y2hfdHlwZSUzZGIlMjZtc2Nsa2lkJTNkZDZmMzU0NDdlZmM0MWE1MTY3ZDUzM2UwYjg1ZjQyZTAlMjZuZXR3b3JrJTNkbyUyNnBhcnRuZXJfaWQlM2RDRDk1MSUyNnRhcmdldF9pZCUzZGRhdC0yMzMwMDAyNTc4NDUxODQ1JTI2dXRtX2FkZ3JvdXAlM2RjdCUyNTNEZHNhJTI1N0NmbiUyNTNEZjElMjZ1dG1fY2FtcGFpZ24lM2RjdCUyNTNEZHNhJTI1N0NsbiUyNTNEMjklMjUzQWVuJTI1N0N0YyUyNTNEYWxsJTI2dXRtX2tleXdvcmQlM2R3d3cuZ2V0eW91cmd1aWRlLmNvbSUyNnV0bV9tZWRpdW0lM2RwYWlkX3NlYXJjaCUyNnV0bV9xdWVyeSUzZHNpcXVpam9yJTI1MjBhY3Rpdml0aWVzJTI2dXRtX3NvdXJjZSUzZGJpbmc&rlid=d6f35447efc41a5167d533e0b85f42e0&ntb=1">Tours</a></h5>
+                                                <p class="card-text">Scenic tours in scenic places </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-4">
+                                        <div class="card h-100">
+                                            <img src="images/im_10.png" class="card-img-top" alt="cave exploring">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="https://www.bing.com/aclick?ld=e81t2Eb_kjmASo8VScB2GGszVUCUzIcsCxSP0mTeIjkzLbhMVoUwhQsfAiili7aB8mne8Jjb9ASGrNgKvbMByUj4DJdZMVZ8hPPYtVq0ZqqPaW42c314eVBM1b8MHUxDcHCt4lbwtSdoioF_NwZhjYm3NkHE2tYJKp0HXhJ7frsBqyIUvfxwMuf1KsqLIhwYJC1YudBw&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZmZyLWZyJTJmLWwxMTQzMDclMmYtdDYyMjgwMyUyZiUzZmNtcCUzZGJpbmclMjZhZF9pZCUzZDc4MjAyOTYzNzEwMzU3JTI2YWRncm91cF9pZCUzZDEyNTEyNDQ4NTQ2ODMyNDAlMjZiaWRfbWF0Y2hfdHlwZSUzZGJiJTI2Y2FtcGFpZ25faWQlM2Q0MzQxMTE1MzQlMjZkZXZpY2UlM2RjJTI2ZmVlZF9pdGVtX2lkJTNkJTI2a2V5d29yZCUzZHd3dy5nZXR5b3VyZ3VpZGUuY29tJTI2bG9jX2ludGVyZXN0X21zJTNkMTQyNzY2JTI2bG9jX3BoeXNpY2FsX21zJTNkMTUyOTg3JTI2bWF0Y2hfdHlwZSUzZGIlMjZtc2Nsa2lkJTNkZDZmMzU0NDdlZmM0MWE1MTY3ZDUzM2UwYjg1ZjQyZTAlMjZuZXR3b3JrJTNkbyUyNnBhcnRuZXJfaWQlM2RDRDk1MSUyNnRhcmdldF9pZCUzZGRhdC0yMzMwMDAyNTc4NDUxODQ1JTI2dXRtX2FkZ3JvdXAlM2RjdCUyNTNEZHNhJTI1N0NmbiUyNTNEZjElMjZ1dG1fY2FtcGFpZ24lM2RjdCUyNTNEZHNhJTI1N0NsbiUyNTNEMjklMjUzQWVuJTI1N0N0YyUyNTNEYWxsJTI2dXRtX2tleXdvcmQlM2R3d3cuZ2V0eW91cmd1aWRlLmNvbSUyNnV0bV9tZWRpdW0lM2RwYWlkX3NlYXJjaCUyNnV0bV9xdWVyeSUzZHNpcXVpam9yJTI1MjBhY3Rpdml0aWVzJTI2dXRtX3NvdXJjZSUzZGJpbmc&rlid=d6f35447efc41a5167d533e0b85f42e0&ntb=1">Cave exploring </a></h5>
+                                                <p class="card-text">Cavern exploring and swimming</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-4">
+                                        <div class="card h-100">
+                                            <img src="images/im_11.png" class="card-img-top" alt="diving">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="https://www.bing.com/aclick?ld=e81t2Eb_kjmASo8VScB2GGszVUCUzIcsCxSP0mTeIjkzLbhMVoUwhQsfAiili7aB8mne8Jjb9ASGrNgKvbMByUj4DJdZMVZ8hPPYtVq0ZqqPaW42c314eVBM1b8MHUxDcHCt4lbwtSdoioF_NwZhjYm3NkHE2tYJKp0HXhJ7frsBqyIUvfxwMuf1KsqLIhwYJC1YudBw&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZmZyLWZyJTJmLWwxMTQzMDclMmYtdDYyMjgwMyUyZiUzZmNtcCUzZGJpbmclMjZhZF9pZCUzZDc4MjAyOTYzNzEwMzU3JTI2YWRncm91cF9pZCUzZDEyNTEyNDQ4NTQ2ODMyNDAlMjZiaWRfbWF0Y2hfdHlwZSUzZGJiJTI2Y2FtcGFpZ25faWQlM2Q0MzQxMTE1MzQlMjZkZXZpY2UlM2RjJTI2ZmVlZF9pdGVtX2lkJTNkJTI2a2V5d29yZCUzZHd3dy5nZXR5b3VyZ3VpZGUuY29tJTI2bG9jX2ludGVyZXN0X21zJTNkMTQyNzY2JTI2bG9jX3BoeXNpY2FsX21zJTNkMTUyOTg3JTI2bWF0Y2hfdHlwZSUzZGIlMjZtc2Nsa2lkJTNkZDZmMzU0NDdlZmM0MWE1MTY3ZDUzM2UwYjg1ZjQyZTAlMjZuZXR3b3JrJTNkbyUyNnBhcnRuZXJfaWQlM2RDRDk1MSUyNnRhcmdldF9pZCUzZGRhdC0yMzMwMDAyNTc4NDUxODQ1JTI2dXRtX2FkZ3JvdXAlM2RjdCUyNTNEZHNhJTI1N0NmbiUyNTNEZjElMjZ1dG1fY2FtcGFpZ24lM2RjdCUyNTNEZHNhJTI1N0NsbiUyNTNEMjklMjUzQWVuJTI1N0N0YyUyNTNEYWxsJTI2dXRtX2tleXdvcmQlM2R3d3cuZ2V0eW91cmd1aWRlLmNvbSUyNnV0bV9tZWRpdW0lM2RwYWlkX3NlYXJjaCUyNnV0bV9xdWVyeSUzZHNpcXVpam9yJTI1MjBhY3Rpdml0aWVzJTI2dXRtX3NvdXJjZSUzZGJpbmc&rlid=d6f35447efc41a5167d533e0b85f42e0&ntb=1">Diving </a></h5>
+                                                <p class="card-text">Snorkeling and Diving</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <div class="col-md-4 col-sm-6 mb-4">
+                                    <div class="card h-100">
+                                        <img src="images/im_8.png" class="card-img-top" alt="faith healing">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> <a href="about.html">Faith Healing </a></h5>
+                                            <p class="card-text">Heal your body and soul</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                <hr> 
     </div>
-    
+    </div>
         <!-- FOOTER SECTION -->
-        <!-- FOOTER SECTION -->
-<footer class="footer_section bg-dark py-4">
-    <div class="container text-center">
-        <h4>Contact Us</h4>
+<footer class="footer_section py-4 mt-auto">
+        <h4>✨Contact Us✨</h4>
         <div class="contact_link_box">
             <a href="https://maps.app.goo.gl/pfJneKt5sBoXevyS8" class="d-block text-decoration-none">
                 <i class="fa fa-map-marker me-2"></i> Siquijor, Central Visayas, Philippines
             </a>
-            <a href="#" class="d-block text-decoration-none">
-                <i class="fa fa-phone me-2"></i> Call +01 1234567890
+            <a href="https://siquijorprovince.com/contact-information/" class="d-block text-decoration-none">
+                <i class="fa fa-phone me-2"></i> Tourism Office: 0955 370 6991
             </a>
-            <a href="#" class="d-block text-decoration-none">
-                <i class="fa fa-envelope me-2"></i> example@gmail.com
+            <a href="https://siquijorprovince.com/contact-information/" class="d-block text-decoration-none">
+                <i class="fa fa-envelope me-2"></i> tsiq.assist2020@gmail.com
             </a>
         </div>
-    </div>
-</footer>
+    </footer>
 
     
 </body>
