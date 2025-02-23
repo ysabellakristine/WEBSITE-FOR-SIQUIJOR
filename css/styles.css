@@ -202,3 +202,21 @@ body {
                  0px 0px 25px rgba(255, 215, 0, 0.8), /* multiple layers to make glow more prominent*/  
                  0px 0px 35px rgba(255, 200, 0, 0.7);
 }
+
+/*added the following to push footer to bottom*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    flex-grow: 1; 
+    padding: 20px;
+}
+
+/* flex box forda footer */
+.box_flex {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100%; 
+}
